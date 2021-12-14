@@ -1,0 +1,401 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+}
+                    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    [class*="col-"]{
+        float: left;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+
+
+
+      .About-me{
+                background-color: seagreen;
+                color: white;
+                padding: 20px 40px;
+               
+      }
+      .About-me-image{
+   
+      }
+      .About-me-Discription{
+         float: right;
+      }
+      .About-me-Discription p{
+          font-size: 1.2rem;
+
+      }
+      .dotted-hr{
+          border: dotted 5px white;
+          border-bottom: none;
+          width: 24px;
+          position: relative;
+          bottom: 20px;
+      }
+      .about-me-tahsin-image{
+          height: 220px;
+          width: 200px;
+          border: 5px solid white;
+          border-radius: 45%;
+          margin: 80px 35px;
+         
+         
+      }
+      .about-me-h2{
+          position: relative;
+          left: 450px;
+      }
+
+      .cricbuzz-btn{
+              padding: 14px;
+              background-color: rosybrown;
+              font-size: 1.2rem;
+              border: none;
+              border-radius: 14px;
+      }
+      .cricbuzz-btn:hover{
+          background-color: salmon;
+      }
+
+
+     .About-me::after{
+         content: '';
+         clear: both;
+         display: table;
+     }
+
+
+     .super-card{
+     padding: 90px 90px;
+     }
+
+     .work-section{
+
+     }
+
+     .Educational-part{
+
+     }
+
+     .card{
+      color: white;
+   background-color: gray;
+   text-align: center;
+       margin: 15px;
+       padding: 25px;
+     }
+     .card:hover{
+         box-shadow: 12px 10px 11px 14px black;
+     }
+
+     .card-logo{
+
+     }
+
+     .card-head{
+       background-color: hotpink;
+     }
+
+     .card-discription{
+
+     }
+
+     .card-below-image{
+         height: 120px;
+         width: 100px;
+     }
+
+     .card-under-animation{
+       
+
+     }
+     .card-under-animation li{
+         list-style-type: none;
+         text-transform: uppercase;
+         position: relative;
+         font-weight: bold;
+         margin: 35px 30px;
+     }
+     .card-under-animation li::before{
+         position: absolute;
+         content: '';
+         width: 100%;
+         background-color: yellow;
+         height: 20px;
+         left: 0px;
+         top:calc(100% + 5px);
+         animation-timing-function: linear;
+         animation-iteration-count: 3;
+         animation-fill-mode: forwards;
+         animation-direction: forward;
+         animation-duration: 2.1s;
+         animation-delay: 0.5s;
+     }
+     .card-under-animation li::after{
+         position: absolute;
+         content: '';
+         width: 0;
+         background-color: yellow;
+         height: 20px;
+         left: 0px;
+         top:calc(100% + 5px);
+         animation-timing-function: linear;
+         animation-iteration-count: 3;
+         animation-fill-mode: forwards;
+         animation-direction: forward;
+         animation-duration: 2.1s;
+         animation-delay: 0.5s;
+     }
+     .card-under-animation li.html::after{
+         animation-name: cd;
+     }
+      @keyframes cd{
+         to{
+             width: 90%;
+             background-color: tomato;
+         }
+     }
+
+     .card-under-animation li.css::after{
+         animation-name:ss ;
+     }
+
+     @keyframes ss{
+         to{
+             width: 55%;
+             background-color: red;
+         }
+     }
+     .card-under-animation li.java::after{
+         animation-name:dsc;
+     }
+
+     @keyframes dsc{
+         to{
+             width: 35%;
+             background-color: black;
+         }
+     }
+    
+     
+
+
+
+
+     .super-card::after{
+         content: '';
+         clear: both;
+         display: table;
+     }
+
+
+
+     .Contact-ME{
+         background-color: crimson;
+         text-align: center;
+         color: white;
+         padding: 10px 19px;
+       
+     }
+
+     .Achievent{
+
+     }
+
+          .Form-type-Contact{
+
+          }
+          .More-Ways-to-Contact{
+
+          }
+          input[type="email"]{
+              padding: 20px 5px;
+              border: none;
+              width: 80%;
+              text-align: center;
+              font-size: 1.5rem;
+              height: 20px;
+          }
+          input[type="text"]{
+              padding: 20px 5px;
+              border: none;
+              width: 80%;
+              text-align: center;
+              font-size: 1.5rem;
+              height: 20px;
+          }
+          textarea{
+            width: 100%;
+            font-size: 1.5rem;
+            text-align: center;
+
+          }
+          .btn{
+                  padding: 10px;
+                  border: none;
+                  background-color: tomato;
+                  font-size: 1.2rem;
+                  font-weight: bolder;
+                  margin: 8px;
+          }
+          .btn:hover{
+              color: wheat;
+          }
+
+          .asbtn{
+              padding: 10px 14px;
+              font-size: 1.8rem;
+              margin: 1px 10px;
+              width: 100px;
+              height: 50px;
+          }
+          .asbtn:hover{
+              background-color: gray;
+          }
+
+
+
+
+
+     .Contact-ME::after{
+         content:'';
+         clear: both;
+         display: table;
+     }
+
+     .footer{
+         background-color:black;
+         color: white;
+         padding: 25px 20px;
+     }
+
+     .footer-contact{
+
+     }
+     .footer-contact a{
+         margin: 10px 14px;
+     }
+     .footer-contact a:hover{
+         color: tomato;
+     }
+     .footer-discription{
+
+     }
+
+
+     .footer::after{
+         content: '';
+         clear: both;
+         display: table;
+     }
+
+     .navbar{
+         background-color: sienna;
+         color: white;
+         padding: 50px 50px;
+
+     }
+
+     .navbar-logo{
+
+     }
+
+     .nav-bar-head{
+
+     }
+
+
+     .navbar-contact{
+
+     }
+     .navbar-contact a{
+         margin: 10px 10px;
+         position: relative;
+         top:44px;
+         background-color: plum;
+         padding: 20px 10px;
+         font-weight: bolder;
+         color: black;
+     }
+     .navbar-contact a:hover{
+         background-color: cadetblue;
+     }
+
+     .nav-img{
+         height: 120px;
+         width: 100px;
+     }
+
+
+  .navbar::after{
+      content: '';
+      clear: both;
+      display: table;
+  }
+
+
+  .profile{
+
+     text-align: center;
+     margin: 0 auto;
+     padding: 100px 100px;
+
+  }
+
+  .profile-discription{
+
+  }
+
+  .profile-discription h2{
+      font-size: 3.4rem;
+
+  }
+  .profile-discription p{
+
+  }
+
+  .top-image{
+      position: relative;
+      left: 200px;
+      transition: transform 3s;
+  }
+  .top-image:hover{
+      transform: rotate(360deg);
+  }
+
+  .below-image{
+      position: relative;
+      right: 290px;
+      transition: transform 3s;
+  }
+  .below-image:hover{
+      transform: rotate(360deg);
+  }
+
+  .profile{
+      content: '';
+      clear: both;
+      display: table;
+  }
